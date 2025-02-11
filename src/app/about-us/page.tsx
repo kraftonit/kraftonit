@@ -1,9 +1,10 @@
 import AboutTop from "@/components/About/aboutTop";
-
+import AboutInnovation from "@/components/About/aboutInnovation";
 const AboutUs = () => {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+        <div>
             <AboutTop />
+            <AboutInnovation />
         </div>
     );
 };
